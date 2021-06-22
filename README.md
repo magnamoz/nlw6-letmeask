@@ -6,6 +6,7 @@ Projeto com fins de estudo - NLW#5 da RocketSeat 🚀
 - Node.js
 - Yarn
 - Firebase
+- Sass
 
 ⚡ Como Executar
 Para conseguir executar é preciso ter instalado: git, node e yarn (ou npm)
