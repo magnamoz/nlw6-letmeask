@@ -1,16 +1,15 @@
-import { FormEvent, useState } from "react";
+import { FormEvent, useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { database } from "../services/firebase";
 
-import { useAuth } from "../hooks/useAuth";
-import { Button } from "../components/Button";
-import { RoomCode } from "../components/RoomCode";
-import { Question } from "../components/Question";
+import { database } from "../../services/firebase";
+import { useAuth } from "../../hooks/useAuth";
+import { Button } from "../../components/Button";
+import { RoomCode } from "../../components/RoomCode";
+import { Question } from "../../components/Question";
 
-import logoImg from "../assets/images/logo.svg";
+import logoImg from "../../assets/images/logo.svg";
 
-import "../styles/room.scss";
-import { useEffect } from "react";
+import "./styles.scss";
 
 //Record usado para declarar tipagem de um objeto
 type FirebaseQuestions = Record<
