@@ -4,11 +4,27 @@
   box-sizing: border-box;
 }
 
-body {
-  background: #f8f8f8;
-  color: #29292e;
+:root {
+  --white: #fff;
+  --secondary-white: #fefefe;
+  --dark-white: #f8f8f8;
+  --dark-pastel-pink: #e559f9;
+  --dark-pastel-gray: #737380;
+  --pastel-gray: #a8a8b3;
+  --light-gray: #e2e2e2;
+  --bluish-purple: #835afd;
+  --red-google: #ea4335;
+  --black: #29292e;
 }
 
-body, input, button, textarea {
-  font: 400 16px 'Roboto', sans-serif;
+body {
+  background: var(--dark-white);
+  color: var(--black);
+}
+
+body,
+input,
+button,
+textarea {
+  font: 400 16px "Roboto", sans-serif;
 }
