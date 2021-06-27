@@ -13,6 +13,11 @@
     background: #f4f0ff;
     border: 1px solid var(--bluish-purple);
 
+    @media (prefers-color-scheme: dark) {
+      background: #c4b2fa;
+      border: 3px solid var(--bluish-purple);
+    }
+
     footer .user-info span {
       color: var(--black);
     }
@@ -20,6 +25,10 @@
 
   &.answered {
     background: #dbdcdd;
+
+    @media (prefers-color-scheme: dark) {
+      background: #afcff0;
+    }
   }
 
   p {

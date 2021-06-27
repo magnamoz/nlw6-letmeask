@@ -28,3 +28,9 @@ button,
 textarea {
   font: 400 16px "Roboto", sans-serif;
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #495050;
+  }
+}

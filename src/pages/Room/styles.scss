@@ -29,6 +29,10 @@
         font-family: "Poppins", sans-serif;
         font-size: 24px;
         color: var(--black);
+
+        @media (prefers-color-scheme: dark) {
+          color: #f0ece2 !important;
+        }
       }
 
       span {
