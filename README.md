@@ -1,7 +1,9 @@
-💻 Projeto: Letmeask - NLW#5 da RocketSeat 🚀
+## NLW#5 da RocketSeat 🚀
+
+### 💻 Projeto: Letmeask 
 Salas de Q&A (perguntas e respostas)
 
-🔨 Tecnologias/ferramentas utilizadas
+### 🔨 Tecnologias/ferramentas utilizadas
 
 - React
 - Firebase
@@ -9,7 +11,7 @@ Salas de Q&A (perguntas e respostas)
 - Yarn
 - Sass
 
-⚡ Como Executar
+### ⚡ Como Executar
 Para conseguir executar é preciso clonar e acessar a pasta do projeto
 
 ```bash
