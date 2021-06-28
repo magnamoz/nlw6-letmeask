@@ -13,12 +13,22 @@
       > img {
         max-height: 45px;
       }
+
+      @media screen and (max-width: 720px) {
+        > img {
+          margin-right: 1rem;
+        }
+      }
     }
   }
 
   main {
     max-width: 800px;
     margin: 0 auto;
+
+    @media screen and (max-width: 805px) {
+      padding: 1rem;
+    }
 
     .room-title {
       margin: 32px 0 24px;
@@ -79,6 +89,10 @@
             color: var(--black);
             font-weight: 500;
             font-size: 14px;
+
+            @media (prefers-color-scheme: dark) {
+              color: #f0ece2;
+            }
           }
         }
 
